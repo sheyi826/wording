@@ -129,6 +129,7 @@ Check endOfWord flag
 Traverse prefix
 From last prefix node → collect all children words
 
+
  7. Complexity Analysis
 Let:
 n = number of words
@@ -139,6 +140,8 @@ Insert	O(k)
 Search	O(k)
 Prefix	O(k)
 Space	O(n × k) worst case
+
+
  8. Edge Cases
 
 Empty string
